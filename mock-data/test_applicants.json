@@ -1,0 +1,533 @@
+{
+  "test_applicants": [
+    {
+      "id": "APP-001",
+      "applicant_key": "sarah_chen",
+      "ssn_encrypted": "enc_ssn_sarah_chen",
+      "personal": {
+        "first_name": "Sarah",
+        "middle_name": "Ling",
+        "last_name": "Chen",
+        "date_of_birth": "1988-03-15",
+        "ssn_last4": "4521",
+        "citizenship": "US",
+        "marital_status": "Single",
+        "email": "sarah.chen@email.com",
+        "phone": "+1-415-555-0173",
+        "current_address": {
+          "street": "742 Evergreen Terrace",
+          "city": "San Mateo",
+          "state": "CA",
+          "zip": "94401",
+          "years_at_address": 7,
+          "ownership_status": "Rent"
+        },
+        "id_document": {
+          "id_type": "drivers_license",
+          "state": "CA",
+          "number_masked": "****8821",
+          "expiration": "2028-03-15"
+        }
+      },
+      "employment": {
+        "status": "Currently Employed",
+        "is_self_employed": false,
+        "employer_name": "Horizon Analytics Inc.",
+        "employer_ein": "94-3204178",
+        "employer_address": "500 Terry A Francois Blvd, San Francisco, CA 94158",
+        "hire_date": "2019-01-14",
+        "current_title": "Senior Data Engineer",
+        "years_in_profession": 7,
+        "employment_type": "Full-Time"
+      },
+      "income": {
+        "base_annual": 145200.00,
+        "monthly_gross": 12100.00,
+        "bonus_annual": 18000.00,
+        "overtime_annual": 0,
+        "commission_annual": 0,
+        "other_income": 0,
+        "total_annual": 163200.00,
+        "total_monthly": 13600.00,
+        "pay_frequency": "Semi-Monthly"
+      },
+      "loan_request": {
+        "purpose": "Purchase",
+        "property_address": "742 Evergreen Terrace, San Mateo, CA 94401",
+        "property_type": "Single Family Residence",
+        "occupancy": "Primary Residence",
+        "purchase_price": 450000,
+        "down_payment": 90000,
+        "down_payment_pct": 20.0,
+        "loan_amount": 360000,
+        "loan_type": "Conventional",
+        "loan_term_years": 30,
+        "desired_rate_type": "Fixed",
+        "estimated_rate": 6.75,
+        "estimated_piti": 2335.00,
+        "ltv": 80.0,
+        "pmi_required": false
+      },
+      "assets": {
+        "checking_accounts": [
+          {
+            "institution": "JPMorgan Chase",
+            "account_masked": "****3847",
+            "balance": 24850.33
+          }
+        ],
+        "savings_accounts": [
+          {
+            "institution": "JPMorgan Chase",
+            "account_masked": "****3848",
+            "balance": 112400.00
+          }
+        ],
+        "investment_accounts": [
+          {
+            "institution": "Fidelity Investments",
+            "account_type": "401(k)",
+            "balance": 187500.00
+          },
+          {
+            "institution": "Vanguard",
+            "account_type": "Brokerage",
+            "balance": 42300.00
+          }
+        ],
+        "total_liquid_assets": 137250.33,
+        "total_retirement": 187500.00,
+        "reserves_months": 8.2
+      },
+      "liabilities": {
+        "monthly_debts": {
+          "existing_mortgage": 1685,
+          "auto_loan": 485,
+          "credit_cards": 150,
+          "student_loans": 0,
+          "other": 0,
+          "total": 2320
+        },
+        "proposed_housing_payment": 2335,
+        "total_obligations": 4655,
+        "front_end_dti": 17.17,
+        "back_end_dti": 34.23
+      },
+      "credit": {
+        "fico_equifax": 788,
+        "fico_experian": 792,
+        "fico_transunion": 785,
+        "representative_score": 788,
+        "tradeline_count": 4,
+        "derogatory_count": 0,
+        "revolving_utilization": 0.081,
+        "oldest_account_months": 130,
+        "has_bankruptcy": false,
+        "has_foreclosure": false,
+        "late_payments_12m": 0
+      },
+      "documents": {
+        "w2_tax_year": 2025,
+        "w2_wages": 145200.00,
+        "paystub_ytd_gross": 54450.00,
+        "paystub_pay_frequency": "Semi-Monthly",
+        "bank_statement_avg_balance": 23210.44,
+        "bank_statement_large_deposits_flagged": false,
+        "ocr_quality_score": 0.97,
+        "ocr_needs_review": false
+      },
+      "screening": {
+        "ofac_disposition": "CLEAR",
+        "pep_status": false,
+        "cip_verified": true,
+        "identity_score": 95
+      },
+      "expected_aus_result": {
+        "du_recommendation": "Approve/Eligible",
+        "lpa_recommendation": "Accept",
+        "appraisal_waiver": true,
+        "conditions_count": 1
+      },
+      "property_valuation": {
+        "avm_estimate": 458000,
+        "avm_confidence": 0.89,
+        "avm_low": 435100,
+        "avm_high": 480900,
+        "comparable_count": 3,
+        "flood_zone": "X (Minimal Risk)"
+      }
+    },
+    {
+      "id": "APP-002",
+      "applicant_key": "marcus_johnson",
+      "ssn_encrypted": "enc_ssn_marcus_johnson",
+      "personal": {
+        "first_name": "Marcus",
+        "middle_name": "Dwayne",
+        "last_name": "Johnson",
+        "date_of_birth": "1990-07-22",
+        "ssn_last4": "7834",
+        "citizenship": "US",
+        "marital_status": "Single",
+        "email": "marcus.j@email.com",
+        "phone": "+1-312-555-0298",
+        "current_address": {
+          "street": "1100 S Michigan Ave Apt 4B",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "60605",
+          "years_at_address": 4,
+          "ownership_status": "Rent"
+        },
+        "id_document": {
+          "id_type": "drivers_license",
+          "state": "IL",
+          "number_masked": "****3047",
+          "expiration": "2027-07-22"
+        }
+      },
+      "employment": {
+        "status": "Currently Employed",
+        "is_self_employed": false,
+        "employer_name": "Midwest Supply Chain Corp.",
+        "employer_ein": "36-7891024",
+        "employer_address": "200 W Adams St Ste 1400, Chicago, IL 60606",
+        "hire_date": "2025-09-08",
+        "current_title": "Supply Chain Analyst",
+        "years_in_profession": 5,
+        "employment_type": "Full-Time",
+        "prior_employer": "LogiTrak Solutions",
+        "prior_hire_date": "2021-03-15",
+        "prior_end_date": "2025-06-30",
+        "employment_gap_days": 69
+      },
+      "income": {
+        "base_annual": 82400.00,
+        "monthly_gross": 6866.67,
+        "bonus_annual": 0,
+        "overtime_annual": 0,
+        "commission_annual": 0,
+        "other_income": 0,
+        "total_annual": 82400.00,
+        "total_monthly": 6866.67,
+        "pay_frequency": "Bi-Weekly"
+      },
+      "loan_request": {
+        "purpose": "Purchase",
+        "property_address": "1100 S Michigan Ave Apt 4B, Chicago, IL 60605",
+        "property_type": "Condominium",
+        "occupancy": "Primary Residence",
+        "purchase_price": 320000,
+        "down_payment": 32000,
+        "down_payment_pct": 10.0,
+        "loan_amount": 288000,
+        "loan_type": "Conventional",
+        "loan_term_years": 30,
+        "desired_rate_type": "Fixed",
+        "estimated_rate": 7.125,
+        "estimated_piti": 2340.00,
+        "ltv": 90.0,
+        "pmi_required": true,
+        "estimated_pmi_monthly": 145.00
+      },
+      "assets": {
+        "checking_accounts": [
+          {
+            "institution": "BMO Harris Bank",
+            "account_masked": "****6201",
+            "balance": 4312.89
+          }
+        ],
+        "savings_accounts": [
+          {
+            "institution": "BMO Harris Bank",
+            "account_masked": "****6202",
+            "balance": 28500.00
+          }
+        ],
+        "investment_accounts": [
+          {
+            "institution": "Fidelity",
+            "account_type": "401(k)",
+            "balance": 34200.00
+          }
+        ],
+        "total_liquid_assets": 32812.89,
+        "total_retirement": 34200.00,
+        "reserves_months": 2.3
+      },
+      "liabilities": {
+        "monthly_debts": {
+          "auto_loan": 415,
+          "credit_cards": 250,
+          "student_loans": 380,
+          "other": 0,
+          "total": 1045
+        },
+        "proposed_housing_payment": 2340,
+        "total_obligations": 3385,
+        "front_end_dti": 34.08,
+        "back_end_dti": 49.30
+      },
+      "credit": {
+        "fico_equifax": 692,
+        "fico_experian": 698,
+        "fico_transunion": 688,
+        "representative_score": 692,
+        "tradeline_count": 4,
+        "derogatory_count": 2,
+        "revolving_utilization": 0.655,
+        "oldest_account_months": 142,
+        "has_bankruptcy": false,
+        "has_foreclosure": false,
+        "late_payments_12m": 2
+      },
+      "documents": {
+        "w2_tax_year": 2025,
+        "w2_wages": 82400.00,
+        "paystub_ytd_gross": 22184.61,
+        "paystub_pay_frequency": "Bi-Weekly",
+        "bank_statement_avg_balance": 3650.18,
+        "bank_statement_large_deposits_flagged": false,
+        "bank_statement_overdraft_count": 1,
+        "ocr_quality_score": 0.95,
+        "ocr_needs_review": false
+      },
+      "screening": {
+        "ofac_disposition": "CLEAR",
+        "pep_status": false,
+        "cip_verified": true,
+        "identity_score": 95
+      },
+      "expected_aus_result": {
+        "du_recommendation": "Approve/Ineligible",
+        "lpa_recommendation": "Accept (with conditions)",
+        "appraisal_waiver": false,
+        "conditions_count": 4,
+        "key_conditions": [
+          "DTI exceeds 43% — compensating factors required",
+          "LTV 90% requires PMI",
+          "Verify employment within 10 business days of closing",
+          "Written explanation for 69-day employment gap"
+        ]
+      },
+      "property_valuation": {
+        "avm_estimate": 325000,
+        "avm_confidence": 0.85,
+        "avm_low": 305500,
+        "avm_high": 344500,
+        "comparable_count": 3,
+        "flood_zone": "X (Minimal Risk)",
+        "condo_project_approved": true
+      }
+    },
+    {
+      "id": "APP-003",
+      "applicant_key": "elena_rodriguez",
+      "ssn_encrypted": "enc_ssn_elena_rodriguez",
+      "personal": {
+        "first_name": "Elena",
+        "middle_name": "Maria",
+        "last_name": "Rodriguez",
+        "date_of_birth": "1985-11-03",
+        "ssn_last4": "9156",
+        "citizenship": "US",
+        "marital_status": "Divorced",
+        "email": "elena.r.design@email.com",
+        "phone": "+1-213-555-0412",
+        "current_address": {
+          "street": "4200 W Pico Blvd Unit 7",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "90019",
+          "years_at_address": 6,
+          "ownership_status": "Rent"
+        },
+        "id_document": {
+          "id_type": "drivers_license",
+          "state": "CA",
+          "number_masked": "****5590",
+          "expiration": "2027-11-03"
+        }
+      },
+      "employment": {
+        "status": "Self-Employed",
+        "is_self_employed": true,
+        "employer_name": "Rodriguez Design Consulting LLC",
+        "employer_ein": "95-6120483",
+        "employer_address": "4200 W Pico Blvd Unit 7, Los Angeles, CA 90019",
+        "business_start_date": "2020-04-01",
+        "current_title": "Owner / Principal Consultant",
+        "years_in_profession": 12,
+        "employment_type": "Self-Employed",
+        "business_type": "Single-Member LLC",
+        "industry": "Design Consulting"
+      },
+      "income": {
+        "base_annual": null,
+        "schedule_c_net_current_year": 110500.00,
+        "schedule_c_net_prior_year": 94200.00,
+        "two_year_average": 102350.00,
+        "monthly_qualifying": 8529.17,
+        "bonus_annual": 0,
+        "overtime_annual": 0,
+        "commission_annual": 0,
+        "other_income": 0,
+        "total_annual": 102350.00,
+        "total_monthly": 8529.17,
+        "pay_frequency": "Irregular",
+        "income_trend": "Increasing"
+      },
+      "loan_request": {
+        "purpose": "Purchase",
+        "property_address": "4200 W Pico Blvd Unit 7, Los Angeles, CA 90019",
+        "property_type": "Single Family Residence",
+        "occupancy": "Primary Residence",
+        "purchase_price": 380000,
+        "down_payment": 57000,
+        "down_payment_pct": 15.0,
+        "loan_amount": 323000,
+        "loan_type": "Conventional",
+        "loan_term_years": 30,
+        "desired_rate_type": "Fixed",
+        "estimated_rate": 7.375,
+        "estimated_piti": 2480.00,
+        "ltv": 85.0,
+        "pmi_required": true,
+        "estimated_pmi_monthly": 162.00
+      },
+      "assets": {
+        "checking_accounts": [
+          {
+            "institution": "Wells Fargo",
+            "account_masked": "****8234",
+            "balance": 11204.55
+          }
+        ],
+        "savings_accounts": [
+          {
+            "institution": "Ally Bank",
+            "account_masked": "****9401",
+            "balance": 45800.00
+          }
+        ],
+        "investment_accounts": [
+          {
+            "institution": "Schwab",
+            "account_type": "SEP-IRA",
+            "balance": 68200.00
+          }
+        ],
+        "total_liquid_assets": 57004.55,
+        "total_retirement": 68200.00,
+        "reserves_months": 3.8
+      },
+      "liabilities": {
+        "monthly_debts": {
+          "auto_loan": 365,
+          "credit_cards": 320,
+          "student_loans": 0,
+          "other": 0,
+          "total": 685
+        },
+        "proposed_housing_payment": 2480,
+        "total_obligations": 3165,
+        "front_end_dti": 29.08,
+        "back_end_dti": 37.11
+      },
+      "credit": {
+        "fico_equifax": 648,
+        "fico_experian": 655,
+        "fico_transunion": 644,
+        "representative_score": 648,
+        "tradeline_count": 3,
+        "derogatory_count": 5,
+        "revolving_utilization": 0.752,
+        "oldest_account_months": 95,
+        "has_bankruptcy": true,
+        "bankruptcy_chapter": 7,
+        "bankruptcy_filed_date": "2022-02-10",
+        "bankruptcy_discharge_date": "2022-06-15",
+        "years_since_discharge": 3.93,
+        "has_foreclosure": false,
+        "late_payments_12m": 3,
+        "collections_paid": 1,
+        "collections_amount_original": 2400
+      },
+      "documents": {
+        "w2_available": false,
+        "tax_return_years": [2024, 2025],
+        "schedule_c_net_2025": 110500.00,
+        "schedule_c_net_2024": 94200.00,
+        "schedule_c_gross_2025": 142000.00,
+        "schedule_c_expenses_2025": 31500.00,
+        "paystub_available": false,
+        "bank_statement_avg_balance": 9450.22,
+        "bank_statement_large_deposits_flagged": true,
+        "bank_statement_irregular_deposits": 3,
+        "ocr_quality_score": 0.80,
+        "ocr_needs_review": true,
+        "ocr_review_flags": [
+          "Low confidence on W-2 wages field (0.79)",
+          "Self-employment — irregular deposit pattern",
+          "Employer EIN confidence below threshold"
+        ],
+        "additional_docs_required": [
+          "2 years personal federal tax returns with all schedules",
+          "Year-to-date profit and loss statement",
+          "Business bank statements (3 months)",
+          "CPA letter confirming business is active",
+          "Business license or articles of organization"
+        ]
+      },
+      "screening": {
+        "ofac_disposition": "POTENTIAL_MATCH",
+        "ofac_match_details": {
+          "matched_sdn_entry": "Elena Maria RODRIGUEZ VEGA",
+          "match_score": 0.5,
+          "match_type": "fuzzy",
+          "dob_match": false,
+          "sdn_nationality": "Venezuela",
+          "applicant_citizenship": "US"
+        },
+        "ofac_recommended_action": "Manual review required — fuzzy name match. Compare DOB, nationality, and address.",
+        "pep_status": false,
+        "cip_verified": true,
+        "identity_score": 95
+      },
+      "expected_aus_result": {
+        "du_recommendation": "Refer",
+        "lpa_recommendation": "Caution — Refer to underwriter",
+        "appraisal_waiver": false,
+        "conditions_count": 6,
+        "key_conditions": [
+          "Manual underwriting required — FICO below 660",
+          "Chapter 7 bankruptcy discharged 2022-06-15 — verify 4-year seasoning",
+          "Self-employed — provide 2 years tax returns",
+          "CPA letter or YTD P&L required",
+          "LTV 85% requires PMI",
+          "OFAC potential match — compliance review before closing"
+        ]
+      },
+      "property_valuation": {
+        "avm_estimate": 385000,
+        "avm_confidence": 0.82,
+        "avm_low": 358050,
+        "avm_high": 411950,
+        "comparable_count": 3,
+        "flood_zone": "X (Minimal Risk)",
+        "hazard_flags": ["Earthquake Zone — California Seismic Hazard Zone"]
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2026-05-24",
+    "description": "Test applicant profiles for mortgage pre-approval accelerator demo",
+    "profiles_summary": {
+      "sarah_chen": "Excellent credit (788 FICO), stable W-2, 20% down — expected Approve/Eligible",
+      "marcus_johnson": "Fair credit (692 FICO), job change, 10% down, high DTI — expected Approve/Ineligible",
+      "elena_rodriguez": "Self-employed, prior bankruptcy, OFAC fuzzy match — expected Refer"
+    }
+  }
+}
